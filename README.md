@@ -1,7 +1,7 @@
 # Spring Cloud Netflix feign page support sample
 [![Build Status](https://travis-ci.org/ingogriebsch/sample-spring-cloud-openfeign-page-support.svg?branch=master)](https://travis-ci.org/ingogriebsch/sample-spring-cloud-openfeign-page-support)
 [![Codecov Status](https://codecov.io/gh/ingogriebsch/sample-spring-cloud-openfeign-page-support/branch/master/graph/badge.svg)](https://codecov.io/gh/ingogriebsch/sample-spring-cloud-openfeign-page-support)
-[![Codacy Status](https://api.codacy.com/project/badge/Grade/8916c0046d9a4090ac8aa117f598f37f)](https://app.codacy.com/app/ingo.griebsch/sample-spring-cloud-openfeign-page-support?utm_source=github.com&utm_medium=referral&utm_content=ingogriebsch/sample-spring-cloud-openfeign-page-support&utm_campaign=Badge_Grade_Dashboard)
+[![Codacy Status](https://api.codacy.com/project/badge/Grade/6902f0231127455f86d0b354c781908f)](https://app.codacy.com/app/ingo.griebsch/sample-spring-cloud-openfeign-page-support?utm_source=github.com&utm_medium=referral&utm_content=ingogriebsch/sample-spring-cloud-openfeign-page-support&utm_campaign=Badge_Grade_Dashboard)
 [![DepShield Status](https://depshield.sonatype.org/badges/ingogriebsch/sample-spring-cloud-openfeign-page-support/depshield.svg)](https://depshield.github.io)
 [![License](http://img.shields.io/:license-apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
 
