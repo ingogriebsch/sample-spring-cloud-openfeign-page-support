@@ -1,4 +1,4 @@
-# Spring Cloud Netflix feign page support sample
+# Spring Cloud Openfeign page support sample
 [![Build Status](https://travis-ci.org/ingogriebsch/sample-spring-cloud-openfeign-page-support.svg?branch=master)](https://travis-ci.org/ingogriebsch/sample-spring-cloud-openfeign-page-support)
 [![Codecov Status](https://codecov.io/gh/ingogriebsch/sample-spring-cloud-openfeign-page-support/branch/master/graph/badge.svg)](https://codecov.io/gh/ingogriebsch/sample-spring-cloud-openfeign-page-support)
 [![Codacy Status](https://api.codacy.com/project/badge/Grade/6902f0231127455f86d0b354c781908f)](https://app.codacy.com/app/ingo.griebsch/sample-spring-cloud-openfeign-page-support?utm_source=github.com&utm_medium=referral&utm_content=ingogriebsch/sample-spring-cloud-openfeign-page-support&utm_campaign=Badge_Grade_Dashboard)

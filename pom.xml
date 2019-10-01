@@ -21,7 +21,7 @@
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>Spring Cloud Netflix feign page support sample</name>
+    <name>Spring Cloud Openfeign page support sample</name>
     <description>This sample shows you how to enable (Spring Data) page support on Feign clients</description>
     <url>https://github.com/ingogriebsch/sample-spring-cloud-openfeign-page-support</url>
     <inceptionYear>2019</inceptionYear>
