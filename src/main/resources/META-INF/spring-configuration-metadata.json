@@ -1,0 +1,6 @@
+{
+    "properties": [{
+        "name": "message-client.url",
+        "type": "java.lang.String"
+    }]
+}
