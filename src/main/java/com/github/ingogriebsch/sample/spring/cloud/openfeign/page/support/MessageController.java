@@ -45,7 +45,7 @@ public class MessageController {
             return toPage(messages(), pageable);
         } else {
             log.info("Getting messages from remote service...");
-            return messageClient.findAll(pageable.getPageNumber(), pageable.getPageSize());
+            return messageClient.findAll(pageable);
         }
     }
 

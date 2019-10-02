@@ -20,7 +20,6 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
 
@@ -34,8 +33,7 @@ public class MessageClientTest {
 
     @Test
     public void findAll_should_return_page_if_using_given_pageable() {
-        Pageable pageable = of(0, 2);
-        Page<Message> page = messageClient.findAll(pageable.getPageNumber(), pageable.getPageSize());
+        Page<Message> page = messageClient.findAll(of(0, 2));
 
         assertThat(page).isNotNull();
         assertThat(page.getNumber()).isEqualTo(0);

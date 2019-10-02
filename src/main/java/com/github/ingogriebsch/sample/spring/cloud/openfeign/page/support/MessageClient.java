@@ -15,15 +15,13 @@ import static org.springframework.web.bind.annotation.RequestMethod.GET;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 
 @FeignClient(name = "message-client", url = "${message-client.url}")
 public interface MessageClient {
 
-    // @RequestMapping(path = PATH_FIND_ALL, method = GET, consumes = APPLICATION_JSON_UTF8_VALUE)
-    // Page<Message> findAll(Pageable pageable);
-
     @RequestMapping(path = PATH_FIND_ALL, method = GET, consumes = APPLICATION_JSON_UTF8_VALUE)
-    Page<Message> findAll(@RequestParam("page") int page, @RequestParam("size") int size);
+    Page<Message> findAll(Pageable pageable);
+
 }
