@@ -1,7 +1,6 @@
 package com.github.ingogriebsch.sample.spring.cloud.openfeign.page.support;
 
 import com.fasterxml.jackson.databind.Module;
-
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.cloud.openfeign.support.PageJacksonModule;
 import org.springframework.context.annotation.Bean;
